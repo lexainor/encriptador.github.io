@@ -111,12 +111,7 @@ function copiar(){
     areaCopia.style.display = 'none';
     document.body.appendChild(areaCopia);
     areaCopia.value = resultado.innerText;
-    if(areaCopia.value == ''){
-        
-    }
-    else{
-        areaCopia.select();
-        navigator.clipboard.writeText(areaCopia.value);
-        document.body.removeChild(areaCopia);
-    }
+    areaCopia.select();
+    navigator.clipboard.writeText(areaCopia.value);
+    document.body.removeChild(areaCopia);
 }
