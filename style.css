@@ -1,0 +1,132 @@
+.header{
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.divHeader{
+    display: flex;
+    margin-top: 0%;
+}
+
+.headerAlura{
+    margin: 40px;
+}
+
+.titulo{
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #96f2f7;
+}
+
+main{
+    display: flex;
+    margin-left: 10%;
+    
+}
+
+.secBotones{
+display: inline-block;
+vertical-align: bottom;
+margin-top: 5%;
+}
+
+.ingreseAqui{
+    resize: none;
+    text-align: left;
+    font-size: 30px;
+    border: 0px;
+    background-color: #DDEEFF;
+}
+
+.mensajeInfo{
+    font-size: 10px;
+    color: #e90a0a;
+    font-family: Verdana;
+    
+}
+
+.encriptar{
+
+    color: #FFFFFF;
+    background-color: #4835E7;
+    padding: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 11px;
+    margin-right: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.desencriptar{
+    color: #4835E7;
+    background-color: #FFFFFF;
+    padding: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 11px;
+    margin-right: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.secMensajes{
+
+    position: relative;
+    margin-left: 20%;
+    padding: 10px;
+    border-radius: 15px;
+    height: 550px;
+    width: 340px;
+    border:5px solid #2D2D2D;
+    
+}
+
+.imagenMMunheco{
+    align-items: center;
+}
+
+.ningunMensaje{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.ingreseTexto{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.copiar{
+    cursor: pointer;
+    position: absolute;
+    top: 475px;
+    left: 30px;
+    width: 300px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #202020;
+    background: #fec9fe;
+    border-radius: 10px;
+    border: 0px;
+
+}
+
+.resultado{
+    font-family: sans-serif;
+    font-size: 18px;
+}

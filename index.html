@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 1 ALura by: Axel Roni Torrico Arnez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <header class="header">
+        <div class="divHeader">
+            <img src="images/header_a.png" alt="Challenge 1 Encriptador y desencriptador Alura" class="headerAlura">    
+            <h1 class="titulo">Encriptador y Desencripador</h1>
+        </div>
+    </header>
+
+    <body>
+        <main>
+            <section class="secBotones">
+                <textarea type="text" class="ingreseAqui" rows="10" cols="35" placeholder="Ingrese aqui su texto" onkeypress="return (event.charCode >= 97 && event.charCode <= 122 || event.charCode == 32)"></textarea>
+                <h6 class="mensajeInfo">Cuidado: Solo se pueden ingresar letras minusculas!</h6>
+                <div>
+                    <button class="encriptar" onclick="encriptar()">Encriptar</button>
+                    <button class="desencriptar" onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </section>
+
+            <section class="secMensajes">
+                <div>
+                    <img src="images/Muñeco.png" alt="Muñeco mensajes" class="imagenMunheco">
+                </div>
+                <p class="ningunMensaje">Ningun mensaje fue encontrado :(</p>
+                <p class="ingreseTexto">Ingrese el texto que desea encriptar o desencriptar</p>
+                <p class="resultado"></p>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </section>            
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
